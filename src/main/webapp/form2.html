@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car rental</title>
+</head>
+<h1>Car rental</h1>
+<form>
+    <fieldset>
+        <legend>Choose car class</legend>
+        <input name="carType" type="radio" value="mini"/>mini<br/>
+        <input name="carType" type="radio" value="economy">economy</br>
+        <input name="carType" type="radio" value="compact">compact</br>
+        <input name="carType" type="radio" value="SUV">SUV</br>
+        <input name="carType" type="radio" value="VAN">VAN</br>
+    </fieldset>
+    <fieldset>
+        <legend>Choose optional equipment</legend>
+        <input type="checkbox" name="equipment" value="child seat">child seat<br/>
+        <input type="checkbox" name="equipment" value="GPS">GPS<br/>
+        <input type="checkbox" name="equipment" value="DVD player">DVD player<br/>
+    </fieldset>
+    <div>
+        <label for="startDate"/>Rental start date<input type="text" id="startDate" placeholder="rrrr-mm-dd"/><br/>
+        <label for="numberOfDays"/>Number of days<input type="text" id="numberOfDays"/><br/>
+        <label for="password"/>Your password<input type="password" id="password"/><br/>
+    </div>
+    <input type="submit" value="Order now !">
+
+</form>
+
+</body>
+</html>
